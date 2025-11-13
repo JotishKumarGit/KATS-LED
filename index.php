@@ -32,14 +32,14 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
-         /* Card hover animation */
+        /* Card hover animation */
         .card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
         .card-img-top {
@@ -62,7 +62,7 @@
     <!-- Spinner End -->
 
     <!-- header -->
-<?php include('header.php') ?>
+    <?php include('header.php') ?>
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
@@ -221,7 +221,7 @@
             <div class="text-center mb-5">
                 <h2 class="fw-bold">Our Products</h2>
                 <p class="text-muted">
-                  We specialize in a wide range of lighting solutions including street lights, flood lights, high bay lights, and flameproof lights. Our motion sensor lights are available in tube lights, panel lights, and street lights up to 100 watts for enhanced energy efficiency and automation.</p>
+                    We specialize in a wide range of lighting solutions including street lights, flood lights, high bay lights, and flameproof lights. Our motion sensor lights are available in tube lights, panel lights, and street lights up to 100 watts for enhanced energy efficiency and automation.</p>
             </div>
 
             <div class="row justify-content-center text-center align-items-center g-4">
@@ -299,7 +299,7 @@
             </div>
         </div>
     </div>
-<!-- end products -->
+    <!-- end products -->
 
     <!-- Fact Start -->
     <div class="container-fluid fact bg-dark my-5 py-5">
@@ -498,6 +498,67 @@
     </div>
     <!-- Testimonial End -->
 
+    
+    <!-- Blog Section -->
+    <div class="container-fluid py-5" style="background-color: #f8fbff;">
+        <div class="container">
+            <h2 class="text-center mb-3" style="color: #004aad;">Our Blog</h2>
+            <p class="text-center mb-5" style="color: #333;">Stay updated with the latest trends and tips in LED lighting through our informative blog posts.</p>
+
+            <div class="row g-4">
+
+                <!-- Blog 1 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="img/Motion-sensor-lights.webp" class="card-img-top" alt="Motion Sensor LED Lights">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #004aad;">Smart Motion Sensor Lights</h5>
+                            <p class="card-text">Discover how motion sensor LED lights enhance security, save energy, and provide modern convenience for your home or business.</p>
+                            <a href="blog.php" class="btn btn-primary" style="background-color: #004aad; border: none;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 2 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="img/maintenance.jpg" class="card-img-top" alt="LED Maintenance Tips">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #004aad;">LED Light Maintenance Tips</h5>
+                            <p class="card-text">Learn essential maintenance tips to increase the lifespan of your LED lighting system and maintain consistent brightness.</p>
+                            <a href="blog.php" class="btn btn-primary" style="background-color: #004aad; border: none;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 3 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="img/lighting_system.webp" class="card-img-top" alt="Efficient Lighting System">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #004aad;">Designing an Efficient Lighting System</h5>
+                            <p class="card-text">Find out how to design a lighting system that maximizes brightness, minimizes cost, and complements modern interiors.</p>
+                            <a href="blog.php" class="btn btn-primary" style="background-color: #004aad; border: none;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 4 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="img/ledPanelnstallatio.webp" class="card-img-top" alt="LED Panel Installation">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #004aad;">LED Panel Installation Guide</h5>
+                            <p class="card-text">Step-by-step guidance on installing LED panels safely and effectively for homes, offices, and industrial spaces.</p>
+                            <a href="blog.php" class="btn btn-primary" style="background-color: #004aad; border: none;">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <!-- Contact Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -538,7 +599,7 @@
                 <div class="col-md-6">
                     <div class="wow fadeInUp" data-wow-delay="0.2s">
                         <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.</p>
-                       
+
                         <form onsubmit="return whatsappForm(event)">
                             <div class="row g-3">
                                 <div class="col-md-6">
@@ -570,7 +631,7 @@
                                 </div>
                             </div>
                         </form>
-                   
+
                     </div>
                 </div>
             </div>
@@ -579,4 +640,4 @@
     <!-- Contact End -->
 
     <!-- footer -->
-     <?php include('footer.php') ?>
+    <?php include('footer.php') ?>

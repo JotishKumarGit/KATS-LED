@@ -1,6 +1,4 @@
-    
-    
-
+  
     <!-- Topbar Start -->
     <div class="container-fluid bg-light">
         <div class="row gx-0 d-none d-lg-flex">
@@ -55,6 +53,7 @@
                         <a href="flameproof_light.php" class="dropdown-item">Flameproof Lights</a>
                     </div>
                 </div>
+                <a href="blog.php" class="nav-item nav-link">Blog</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
             <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
